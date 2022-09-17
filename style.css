@@ -2,20 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 body {
-    transition: all 0.3s ease;
+    transition: all 1s linear;
     height: 100vh;
     background-color: rgb(186, 45, 211);
-}
-.color-container {
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
-    height: 100%;
 }
 h2 {
+    color: white;
     padding: 20px;
     border-radius: 10px;
     background-color: rgba(100, 100, 100, 0.647);
